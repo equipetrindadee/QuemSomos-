@@ -1,0 +1,64 @@
+    .conteudo-qs{
+        width: 100vw;
+        height: 70vh;
+        /* background-color: #ffbb04 !important; */
+        background-image: url('../QuemSomos/img/back-qs.svg');
+        /* display: flex; */
+    }
+
+    .conteudo-qs p{
+        font-size: 25px;
+        padding: 90px;
+        color: #000000;
+        font-weight: bold;
+        
+    }
+
+
+
+    .title-qs{
+        color: #442510;
+        text-align: center;
+        font-family: 'Pattaya';
+        padding-top: 30px;
+        font-size: 45px;
+    }
+
+    .teste{
+        display: flex;
+    }
+
+
+
+
+    .teste img{
+        width: 250vw;
+        height: 70vh;
+        
+    }
+
+    
+    @media screen and (max-width: 768px) {
+
+        .conteudo-qs{
+            width: 250vw;
+            height: 70vh;
+            /* background-color: #ffbb04 !important; */
+            background-image: url('../QuemSomos/img/back-qs.svg');
+            /* display: flex; */
+            display: block;
+        }
+
+        .title-qs{
+            color: #442510;
+            text-align: center;
+            font-family: 'Pattaya';
+            padding-top: 30px;
+            font-size: 65px;
+        }
+    
+        .teste p {
+            font-size: 25px; /* Reduz o tamanho da fonte */
+            padding: 0.1rem;
+        }
+    }
